@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="popup" id="popup">
+            <button>Colaborador</button>
+            <button>Cliente</button>
+        </div>
+        <section id="campo" class="flex-row" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <section class="flex-row left">
+                <div class="flex-column">
+                    <div class="mesa">
+                        <span>Mesa 3</span>
+                    </div>
+                    <div class="mesa">
+                        <span>Mesa 2</span>
+                    </div>
+                    <div class="mesa">
+                        <span>Mesa 1</span>
+                    </div>
+                    <br>
+                </div>
+                <div class="flex-column">
+                    <div class="flex-row">
+                        <div class="mesa">
+                            <span>Mesa 4</span>
+                        </div>
+                        <div class="mesa g">
+                            <span>Router</span>
+                        </div>
+                        <div class="mesa g">
+                            <span>Corte de vidro</span>
+                        </div>
+                    </div>
+                    <div class="flex-row">
+                        <br>
+                        <div class="mesa g">
+                            <span>Estoque</span>
+                        </div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="mesa">
+                            <span>Estampo</span>
+                        </div>
+                        <div class="mesa">
+                            <span>Corte</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="flex-column right">
+                <div class="flex-row">
+                    <div class="mesa">
+                        <span>Expedição</span>
+                    </div>
+                    <div class="mesa">
+                        <span>Logística</span>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="mesa">
+                        <span>Equipe 1</span>
+                    </div>
+                    <div class="mesa">
+                        <span>Equipe 2</span>
+                    </div>
+                    <div class="mesa">
+                        <span>Equipe 3</span>
+                    </div>
+                </div>
+                <div class="mesa" style="visibility: hidden;"></div>
+            </section>
+        </section>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
