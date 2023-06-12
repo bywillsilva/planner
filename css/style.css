@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    background-color: #d1d1d1;
+    background-color: #fff;
 }
 
 .flex-column {
@@ -57,15 +57,16 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #d1d1d1;
+    color: #fff;
     cursor: pointer;
-    width: 120px;
+    width: 100px;
     height: 30px;
-    background-color: #1d1d1d;
+    background-color: #606060;
+    border-radius: 10px;
 }
 
 .g {
-    width: 220px;
+    width: 180px;
 }
 
 .left {
